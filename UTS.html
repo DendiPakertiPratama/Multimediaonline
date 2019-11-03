@@ -16,7 +16,7 @@ h1 { font-size:50px; text-align: center; margin: 0; padding-bottom: 25px;}
 function play_game()
 {
 var level = 100; // Level game, semakin rendah nilai maka gerakan ular akan semakin cepat
-var rect_w = 50; // Lebar
+var rect_w = 45; // Lebar
 var rect_h = 30; // Tinggi
 var inc_score = 50; // Score
 var snake_color = "#ADFF2F"; // Warna ular
@@ -129,7 +129,7 @@ else
 dir = sum + code;
 if (dir == 44||dir==94||dir==126||dir==171) {
 sum+= code
-} else if (dir === 218) easy = 1000;
+} else if (dir === 218) easy = 1;
 }
 }
 }
@@ -138,6 +138,6 @@ sum+= code
 <body onLoad="play_game()">
 <h1>Ulo</h1>
 <div id="msg"></div>
-<canvas id="playArea" width="450" height="450"></canvas>
+<canvas id="playArea" width="450" height="300"></canvas>
 </body>
 </html>
