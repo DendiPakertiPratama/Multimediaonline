@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #000000;
+    color: #FEFEFE;
+}
+#fileWrapper{
+	transition:all 0.5s ease;
+}
+#fileWrapper:hover{
+	opacity: 1!important;
+}
+
+#visualizer_wrapper{
+	text-align: center;
+}
+footer{
+	position: fixed;
+	bottom: 2px;
+	color:#aaa;
+}
+#mono-R
+{
+	transform: rotateX(220deg);
+	-webkit-transform:(220deg);
+	transform: rotateX(220deg);
+	top: -66px;
+	position: relative;
+}
+
+input[type="file"]
+{
+	background:00 00 CD#;
+}
+
+#info
+{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	top: 120px;
+	font-size: 28px;
+}
+
+.text{
+	color:	7C FC 00#;
+	font-size: 30px; 
+}
